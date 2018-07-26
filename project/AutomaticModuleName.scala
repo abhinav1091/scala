@@ -12,9 +12,7 @@ import sbt.Keys._
  * though there should be of course a strong relationship between them.
  */
 object AutomaticModuleName  {
-  
-
-  
+  // removed update
   def settings(name: String): Seq[Def.Setting[_]] = {
     val pair = ("Automatic-Module-Name" -> name)
     Seq(
