@@ -13,11 +13,7 @@ import sbt.Keys._
  */
 object AutomaticModuleName  {
   
-  // this is just update
-  
-  /// thi is update 2
- ///lksfa
-  
+
   
   def settings(name: String): Seq[Def.Setting[_]] = {
     val pair = ("Automatic-Module-Name" -> name)
