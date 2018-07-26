@@ -15,6 +15,7 @@ object AutomaticModuleName  {
   
   // this is just update
   
+  /// thi is update 2
   
   def settings(name: String): Seq[Def.Setting[_]] = {
     val pair = ("Automatic-Module-Name" -> name)
